@@ -6,8 +6,6 @@ import javax.swing.table.TableModel;
 
 public abstract class ModeloAdapter implements TableModel
 {
-
-
     @Override
     public boolean isCellEditable(int rowIndex, int columnIndex)
     {
@@ -18,19 +16,16 @@ public abstract class ModeloAdapter implements TableModel
     @Override
     public void setValueAt(Object aValue, int rowIndex, int columnIndex)
     {
-        
     }
 
     @Override
     public void addTableModelListener(TableModelListener l)
     {
-        
     }
 
     @Override
     public void removeTableModelListener(TableModelListener l)
     {
-        
     }
     
 }
